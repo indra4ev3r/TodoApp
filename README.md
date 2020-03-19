@@ -1,7 +1,6 @@
 This project is a Simple Todo list App using React Hooks
 
-![Todo App](C:\Users\Indra\Pictures\todo.PNG)
-Format: ![Alt Text](url)
+![Todo App](\Users\Indra\Pictures\todo.png)
 
 ## Available Scripts
 
