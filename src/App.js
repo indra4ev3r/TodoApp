@@ -52,12 +52,17 @@ function App() {
 
   return (
     <div className="app">
-        <div className="todo-list">
-          {todos.map((todo, index) => (
-            <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} deleteTodo={deleteTodo}/>
-          ))}
-          <TodoForm addTodo={addTodo} />
-        </div>
+      <header>
+        <h1>
+          ToDo App Using React Hooks
+        </h1>
+      </header>
+      <div className="todo-list">
+        {todos.map((todo, index) => (
+          <Todo key={index} index={index} todo={todo} completeTodo={completeTodo} deleteTodo={deleteTodo}/>
+        ))}
+        <TodoForm addTodo={addTodo} />
+      </div>
     </div>
   )
 }
